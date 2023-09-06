@@ -1,9 +1,9 @@
-import './App.css'
+import Home from './views/Home'
 
 function App() {
   return (
     <div>
-      <h1 className='text-blue-500 '>Hola</h1>
+      <Home/>
     </div>
   )
 }
