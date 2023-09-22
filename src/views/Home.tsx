@@ -6,7 +6,9 @@ import About from './About'
 const Home: React.FC  = () => {
   return (
     <div>
+      <div className='flex justify-center mt-[2rem]'>
         <NavBar/>
+      </div>
         <Banner/>
         <About/>
     </div>

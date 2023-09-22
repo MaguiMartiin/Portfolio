@@ -13,31 +13,31 @@ const NavBar: React.FC = () => {
   }
 
   return (
-    <div className="justify-center items-center gradient-navBar text-white p-[0.5rem] fixed w-screen mt-[-4rem]">
-      <div className="flex justify-center font-secondary">
-        <button className={`p-[0.5rem] flex items-center ${buttonClicked === "home" ? " border-b-4 border-blue-700" : ""}`} onClick={() => scrollToSection("home")}>
-          <FaHome className="text-2xl mr-1" />
-          Home
+    <div className="justify-center items-center bg-gray-900 text-white p-[0.5rem] fixed w-[50%] rounded-full z-30">
+      <div className="flex font-secondary ">
+        <button className="p-[0.5rem] flex items-center w-full justify-center active:border-b-4 active:border-blue-700 focus:border-b-4 focus:border-blue-700" onClick={() => scrollToSection("home")}>
+          <FaHome className="text-base mr-[0.5rem]" />
+          Inicio
         </button>
 
-        <button className={`p-[0.5rem] flex items-center mr-2 ${buttonClicked === "about" ? "border-b-4 border-blue-700" : ""}`} onClick={() => scrollToSection("about")}>
-          <FaUser className="text-2xl mr-1" />
-          About
+        <button className="p-[0.5rem] flex items-center w-full justify-center active:border-b-4 active:border-blue-700 focus:border-b-4 focus:border-blue-700" onClick={() => scrollToSection("about")}>
+          <FaUser className="text-base mr-[0.5rem]" />
+          Sobre mi
         </button>
 
-        <button className={`p-[0.5rem] flex items-center mr-2 ${buttonClicked === "skills" ? "border-b-4 border-blue-700" : ""}`} onClick={() => scrollToSection("skills")}>
-          <FaTools className="text-2xl mr-1" />
-          Skills
+        <button className="p-[0.5rem] flex items-center w-full justify-center active:border-b-4 active:border-blue-700 focus:border-b-4 focus:border-blue-700"  onClick={() => scrollToSection("skills")}>
+          <FaTools className="text-base mr-[0.5rem]" />
+          Habilidades
         </button>
 
-        <button className={`p-[0.5rem] flex items-center mr-2 rounded-lg ${buttonClicked === "works" ? "border-b-4 border-blue-700" : ""}`} onClick={() => scrollToSection("works")}>
-          <FaBriefcase className="text-2xl mr-1" />
-          Works
+        <button className="p-[0.5rem] flex items-center w-full justify-center active:border-b-4 active:border-blue-700 focus:border-b-4 focus:border-blue-700"   onClick={() => scrollToSection("works")}>
+          <FaBriefcase className="text-base mr-[0.5rem]" />
+          Proyectos
         </button>
 
-        <button className={`p-[0.5rem] flex items-center mr-2 rounded-lg ${buttonClicked === "contact" ? "border-b-4 border-blue-700" : ""}`} onClick={() => scrollToSection("contact")}>
-          <FaEnvelope className="text-2xl mr-1" />
-          Contact
+        <button className="p-[0.5rem] flex items-center w-full justify-center active:border-b-4 active:border-blue-700 focus:border-b-4 focus:border-blue-700"   onClick={() => scrollToSection("contact")}>
+          <FaEnvelope className="ttext-base mr-[0.5rem]" />
+          Contacto
         </button>
       </div>
     </div>
