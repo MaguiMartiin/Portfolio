@@ -1,21 +1,19 @@
-import React, { useState } from "react";
+import React from "react";
 import { FaHome, FaUser, FaTools, FaBriefcase, FaEnvelope } from "react-icons/fa";
 
 const NavBar: React.FC = () => {
-  const [buttonClicked, setButtonClicked] = useState<string | null>(null)
 
   const scrollToSection = (sectionId: string) => {
     const section = document.getElementById(sectionId)
     if (section) {
       section.scrollIntoView({ behavior: "smooth" })
-      setButtonClicked(sectionId)
     }
   }
 
   return (
     <div className="justify-center items-center bg-black text-white p-[0.5rem] fixed w-[50%] rounded-full z-30 shadow-lg shadow-blue-700 ">
       <div className="flex font-secondary ">
-        <button className="p-[0.5rem] flex items-center w-full justify-center active:border-b-4 active:border-blue-700 focus:border-b-4 focus:border-blue-700" onClick={() => scrollToSection("home")}>
+        <button className="p-[0.5rem] flex items-center w-full justify-center active:border-b-4 active:border-blue-700 focus:border-b-4 focus:border-blue-700" onClick={() => scrollToSection("home")} >
           <FaHome className="text-base mr-[0.5rem]" />
           Inicio
         </button>
