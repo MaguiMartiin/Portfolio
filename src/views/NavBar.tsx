@@ -13,7 +13,7 @@ const NavBar: React.FC = () => {
   }
 
   return (
-    <div className="justify-center items-center bg-gray-900 text-white p-[0.5rem] fixed w-[50%] rounded-full z-30">
+    <div className="justify-center items-center bg-black text-white p-[0.5rem] fixed w-[50%] rounded-full z-30 shadow-lg shadow-blue-700 ">
       <div className="flex font-secondary ">
         <button className="p-[0.5rem] flex items-center w-full justify-center active:border-b-4 active:border-blue-700 focus:border-b-4 focus:border-blue-700" onClick={() => scrollToSection("home")}>
           <FaHome className="text-base mr-[0.5rem]" />
