@@ -12,7 +12,7 @@ const Banner: React.FC = () => {
         <FontAwesomeIcon icon={faWhatsapp} className='text-3xl p-[1rem] text-blue-700' />
       </div>
       <div className="p-[2rem] mt-[1rem]">
-        <img src={Magali} alt="Fotografía de Magali Martin" className='rounded-full w-80 h-80 object-cover max-[450px]:w-[17rem] max-[450px]:h-[17rem]'/>
+        <img src={Magali} alt="Fotografía de Magali Martin" className='rounded-full w-80 h-80 object-cover max-[450px]:w-[16rem] max-[450px]:h-[16rem]'/>
       </div>
       <div className="flex flex-col justify-center items-center mt-[4rem] w-[45%] max-[450px]:w-full ">
         <h1 className='font-secondary text-3xl max-[450px]:text-2xl'>______ MAGALI MARTIN</h1>
