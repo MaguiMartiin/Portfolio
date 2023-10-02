@@ -8,13 +8,13 @@ const Skills: React.FC = () => {
         <div className='flex justify-center mt-[7rem] pb-[2rem]'>
             <h1 className='font-primary text-4xl gradient-text'>HABILIDADES</h1>
         </div>
-        <div className='flex w-full'>
-            <div className='w-2/4 border-r-[0.08rem] pb-[1.5rem]'>
+        <div className='flex w-full max-[450px]:flex-col '>
+            <div className='w-2/4 border-r-[0.08rem] pb-[1.5rem] max-[450px]:border-none'>
                 <div className='text-center p-[2rem] font-primary text-blue-800 text-3xl'>
                     <h1>FRONTEND</h1>
                 </div>
                 <div className='text-2xl flex-col '>
-                    <div className='flex mb-[2rem] justify-evenly'>
+                    <div className='flex mb-[2rem] justify-evenly max-[450px]:flex-col max-[450px]:items-center'>
                         <div className='flex items-center w-full justify-center'>
                             <SiTailwindcss/>
                             <p className='ml-[0.5rem]'>Tailwind</p>
@@ -24,7 +24,7 @@ const Skills: React.FC = () => {
                             <p className='ml-[0.5rem]'>CSS</p>                  
                         </div>
                     </div>
-                    <div className='flex mb-[2rem] justify-evenly '>
+                    <div className='flex mb-[2rem] justify-evenly max-[450px]:flex-col '>
                         <div className='flex items-center w-full justify-center'>
                             <FaHtml5/>
                             <p className='ml-[0.5rem]'>HTML</p>
@@ -34,7 +34,7 @@ const Skills: React.FC = () => {
                             <p className='ml-[0.5rem]'>Redux</p>
                         </div>
                     </div>              
-                    <div className='flex justify-evenly'>
+                    <div className='flex justify-evenly max-[450px]:flex-col'>
                         <div className='flex items-center w-full justify-center'>
                             <FaReact/>
                             <p className='ml-[0.5rem]'>React</p>
