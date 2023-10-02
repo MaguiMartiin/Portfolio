@@ -5,7 +5,7 @@ import { faGithub, faLinkedin, faWhatsapp } from '@fortawesome/free-brands-svg-i
 
 const Banner: React.FC = () => {
   return (
-    <div id="home" className='flex justify-center mt-[3rem] p-[3rem]'>
+    <div id="home" className='flex justify-center mt-[4rem] p-[3rem]'>
       <div className='flex flex-col justify-center mt-[1.5rem]'>
         <FontAwesomeIcon icon={faLinkedin} className='text-3xl p-[1rem] text-blue-700' />
         <FontAwesomeIcon icon={faGithub} className='text-3xl p-[1rem] text-blue-700' />

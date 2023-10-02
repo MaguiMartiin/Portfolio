@@ -11,9 +11,9 @@ const Projects: React.FC  = () => {
         <div>
           <div className='flex p-[2rem] mt-[2rem] border-b'>
             <div className='flex-col flex justify-center w-full'>
-              <h1 className='text-center font-primary text-2xl text-black'>Henry Dogs</h1>
+              <h1 className='text-center font-primary text-2xl text-slate-700'>Henry Dogs</h1>
               <h2 className='text-center font-primary text-blue-700'>Individual</h2>
-              <p className='text-base font-secondary text-center p-[1rem]'>
+              <p className='text-base font-secondary text-center p-[1rem] text-white'>
               Esta experiencia práctica me permitió aplicar los conocimientos adquiridos durante el Bootcamp de Henry y construir una SPA funcional que permita a los usuarios buscar, filtrar, ordenar y agregar razas de perros, entre otras funcionalidades. Asegurándome de que la base de datos esté correctamente configurada y que la aplicación tenga una interfaz de usuario agradable.
               </p>
             </div>
@@ -30,9 +30,9 @@ const Projects: React.FC  = () => {
           
           <div className='flex p-[2rem] border-b'>
             <div className='flex-col flex justify-center w-full'>
-              <h1 className='text-center font-primary text-2xl text-black'>BookHub</h1>
+              <h1 className='text-center font-primary text-2xl text-slate-700'>BookHub</h1>
               <h2 className='text-center font-primary text-blue-700'>Grupal</h2>
-              <p className='text-base font-secondary text-center p-[1rem]'>
+              <p className='text-base font-secondary text-center p-[1rem] text-white'>
               Mi contribución a BookHub se centró en la creación de una plataforma de comercio electrónico de libros completa y robusta, que brinda a los usuarios la oportunidad de comprar y opinar sobre libros, mientras que ofrece a los administradores un control completo sobre la gestión de libros y ventas.
               </p>
             </div>
