@@ -33,7 +33,7 @@ const Projects: React.FC  = () => {
               <h1 className='text-center font-primary text-2xl text-black'>BookHub</h1>
               <h2 className='text-center font-primary text-blue-700'>Grupal</h2>
               <p className='text-base font-secondary text-center p-[1rem]'>
-              ¡Hola! Soy Magali Martin, una apasionada desarrolladora web con experiencia en la creación de sitios web visualmente atractivos y funcionales. Mi objetivo es combinar mis habilidades técnicas con la creatividad para construir soluciones web sorprendentes.
+              Mi contribución a BookHub se centró en la creación de una plataforma de comercio electrónico de libros completa y robusta, que brinda a los usuarios la oportunidad de comprar y opinar sobre libros, mientras que ofrece a los administradores un control completo sobre la gestión de libros y ventas.
               </p>
             </div>
             <div className='w-full group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30 rounded'>
