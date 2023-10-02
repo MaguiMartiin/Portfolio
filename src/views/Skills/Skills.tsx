@@ -11,7 +11,7 @@ const Skills: React.FC = () => {
         <div className='flex w-full'>
             <div className='w-2/4 border-r-[0.08rem] pb-[1.5rem]'>
                 <div className='text-center p-[2rem] font-primary text-blue-800 text-3xl'>
-                    <h1>FrontEnd</h1>
+                    <h1>FRONTEND</h1>
                 </div>
                 <div className='text-2xl flex-col '>
                     <div className='flex mb-[2rem] justify-evenly'>
@@ -49,7 +49,7 @@ const Skills: React.FC = () => {
 
             <div className='w-2/4'>
                 <div className='text-center p-[2rem] font-primary text-blue-800 text-3xl'>
-                    <h1>BackEnd</h1>
+                    <h1>BACKEND</h1>
                 </div>
                 <div className=' text-2xl flex-col'>
                     <div className='flex justify-evenly mb-[2rem]'>
