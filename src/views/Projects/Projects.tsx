@@ -19,6 +19,14 @@ const Projects: React.FC  = () => {
               <p className='text-base font-secondary text-center p-[1rem] text-white'>
               Esta experiencia práctica me permitió aplicar los conocimientos adquiridos durante el Bootcamp de Henry y construir una SPA funcional que permita a los usuarios buscar, filtrar, ordenar y agregar razas de perros, entre otras funcionalidades. Asegurándome de que la base de datos esté correctamente configurada y que la aplicación tenga una interfaz de usuario agradable.
               </p>
+              <div className=' justify-center flex space-x-8'>  
+                <a href='https://github.com/MaguiMartiin/HenryDogsFront' target="_blank">
+                  <FontAwesomeIcon icon={faGithub} className='text-2xl text-blue-900'/>
+                </a>
+                <a href='https://henry-dogs-front.vercel.app/' target="_blank">
+                  <FaExternalLinkAlt className='text-2xl text-blue-900'/>
+                </a>
+              </div>
             </div>
             <div className='w-full group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30 rounded'>
               <img src={HenryDogs} alt="HenryDogs" className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125 rounded"/>
