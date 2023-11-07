@@ -40,15 +40,15 @@ function ContactForm() {
     };
 
     return (
-        <div id='contact'>     
-            <form onSubmit={handleSubmit}>
-                <label htmlFor="name">Nombre: </label>
-                <input type="text" id="user_name" name="user_name" value={formData.user_name} onChange={handleChange}/>
+        <div id='contact' className='flex justify-center mt-[7rem] '>     
+            <form onSubmit={handleSubmit} className='flex flex-col justify-center font-primary w-[30%] text-blue-900 items-center max-[450px]:mb-[28rem]'>
+                <label htmlFor="name" className=''>Nombre </label>
+                <input type="text" id="user_name" name="user_name" value={formData.user_name} onChange={handleChange}/><br />
 
-                <label htmlFor="email">Correo Electrónico: </label>
+                <label htmlFor="email">Correo Electrónico </label>
                 <input type="email" id="user_email" name="user_email" value={formData.user_email} onChange={handleChange} required /><br />
 
-                <label htmlFor="message">Mensaje: </label><br />
+                <label htmlFor="message">Mensaje </label>
                 <textarea id="message" name="message" value={formData.message} onChange={handleChange} rows="4" cols="50" required></textarea><br />
 
                 <button type="submit">Enviar</button>
