@@ -12,40 +12,41 @@ const TEMPLATE_ID: string = import.meta.env.VITE_URL_TEMPLATE_ID;
 const USER_ID: string = import.meta.env.VITE_URL_USER_ID;
 
 const Contact: React.FC = () => {
-  const [formData, setFormData] = useState<FormData>({
-    user_name: '',
-    user_email: '',
-    message: ''
-  });
 
-  const handleChange = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>): void => {
-    const { name, value } = e.target;
-    setFormData({
-      ...formData,
-      [name]: value
+    const [formData, setFormData] = useState<FormData>({
+        user_name: '',
+        user_email: '',
+        message: ''
     });
-  };
 
-  const handleSubmit = async (e: FormEvent<HTMLFormElement>): Promise<void> => {
-    e.preventDefault();
-    try {
-      await emailjs.send(
-        SERVICE_ID,
-        TEMPLATE_ID,
-        {
-          user_name: formData.user_name,
-          from_email: formData.user_email,
-          message: formData.message
-        },
-        USER_ID
-      );
-      alert('Correo electrónico enviado exitosamente!');
-    } catch (error) {
-      console.error('Error al enviar el correo electrónico:', error);
-    }
-  };
+    const handleChange = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>): void => {
+        const { name, value } = e.target
+        setFormData({
+        ...formData,
+        [name]: value
+        });
+    };
 
-  return (
+    const handleSubmit = async (e: FormEvent<HTMLFormElement>): Promise<void> => {
+        e.preventDefault();
+        try {
+        await emailjs.send(
+            SERVICE_ID,
+            TEMPLATE_ID,
+            {
+                user_name: formData.user_name,
+                user_email: formData.user_email,
+                message: formData.message
+            },
+            USER_ID
+        );
+        alert('Correo electrónico enviado exitosamente!');
+        } catch (error) {
+        console.error('Error al enviar el correo electrónico:', error);
+        }
+    };
+
+return (
     <div id='contact' className='flex flex-col justify-center p-[7rem] '>
       <div className='flex justify-center'>
         <h1 className='font-primary text-4xl gradient-text'>CONTACTO</h1>
