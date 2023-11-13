@@ -64,19 +64,19 @@ return (
         </div>
 
         <div className='flex-col flex w-full'>
-          <form onSubmit={handleSubmit} className='flex flex-col justify-center font-primary text-blue-900 max-[450px]:mb-[28rem]'>
+          <form onSubmit={handleSubmit} className='flex flex-col justify-center font-primary text-white max-[450px]:mb-[28rem]'>
             <div className='p-[1rem] flex flex-col bg-slate-400 mb-[1rem] rounded-xl'>
-                <label htmlFor='name' className='mb-[0.5rem]'>Nombre </label>
-                <input type='text' id='user_name' name='user_name' value={formData.user_name} placeholder='Inserta tu nombre' onChange={handleChange} className='bg-slate-400 placeholder:text-white font-secondary' />
+                <label htmlFor='name' className='mb-[0.5rem] text-blue-900'>Nombre </label>
+                <input type='text' id='user_name' name='user_name' value={formData.user_name} placeholder='Inserta tu nombre' onChange={handleChange} required className='bg-slate-400 placeholder:text-white font-secondary' />
             </div>
 
             <div className='p-[1rem] flex flex-col bg-slate-400 mb-[1rem] rounded-xl'>
-                <label htmlFor='email' className='mb-[0.5rem]'>Correo Electrónico </label>
+                <label htmlFor='email' className='mb-[0.5rem] text-blue-900'>Correo Electrónico </label>
                 <input type='email' id='user_email' name='user_email' value={formData.user_email} placeholder='Inserta tu email' onChange={handleChange} required className='bg-slate-400 placeholder:text-white font-secondary'/>
             </div>
 
             <div className='p-[1rem] flex flex-col bg-slate-400 mb-[1rem] rounded-xl'>
-                <label htmlFor='message' className='mb-[0.5rem]'>Mensaje </label>
+                <label htmlFor='message' className='mb-[0.5rem] text-blue-900'>Mensaje </label>
                 <textarea id='message' name='message' value={formData.message} placeholder='Dejá tu mensaje' onChange={handleChange} rows={4} cols={50} required className='bg-slate-400 placeholder:text-white font-secondary'></textarea>
             </div>
             

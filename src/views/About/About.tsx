@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaGraduationCap, FaBriefcase } from 'react-icons/fa';
+import { FaGraduationCap, FaBriefcase, FaFilePdf } from 'react-icons/fa';
 import Diploma from './Diploma.jpg'
 
 const About: React.FC  = () => {
@@ -40,9 +40,11 @@ const About: React.FC  = () => {
             Mi formación en el Bootcamp de SoyHenry me ha preparado para enfrentar desafíos en el mundo real y me ha dotado de habilidades técnicas y prácticas esenciales en el desarrollo Front-end y Back-end.
             </p>
           </div>
-          <div className=' justify-center text-center'>
-            <button className='bg-blue-800  w-fit p-[0.6rem] justify-self-center rounded-xl text-base font-secondary text-white'>
-              <a href='/pdf' target='blanck'>Mira mi CV</a>
+          <div className='flex justify-center items-center text-center'>
+            <button className='bg-slate-500 w-fit p-[0.6rem] justify-center rounded-xl text-base font-secondary text-white'>
+              <a href='/pdf' target='blanck' className='flex items-center text-center'>
+                Mirá mi CV <FaFilePdf className='ml-[0.3rem]'/> 
+              </a>
             </button>
           </div>
         </div>     
