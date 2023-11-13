@@ -17,7 +17,7 @@ const About: React.FC  = () => {
       </div>
       <div className=' flex mt-[2rem] w-screen h-[25rem] p-[2rem] max-[450px]:flex-col'>
         <div className='flex flex-col w-full ml-[5rem] max-[450px]:ml-[0rem]'>
-          <div className='flex gap-[2rem] justify-evenly pt-[1rem] text-blue-900'>
+          <div className='flex gap-[2rem] justify-evenly text-blue-900'>
             <div className='flex flex-col w-[10rem] h-[10rem] rounded-lg border shadow-lg text-center justify-center bg-slate-200'>
               <div className='flex justify-center'>
                 <FaGraduationCap />                
@@ -35,13 +35,18 @@ const About: React.FC  = () => {
               </div>
             </div>
           </div>
-          <div className='flex p-[2rem]'>
+          <div className='flex p-[1rem]'>
             <p className='text-xl font-secondary text-center text-white'>
             Mi formación en el Bootcamp de SoyHenry me ha preparado para enfrentar desafíos en el mundo real y me ha dotado de habilidades técnicas y prácticas esenciales en el desarrollo Front-end y Back-end.
             </p>
           </div>
+          <div className=' justify-center text-center'>
+            <button className='bg-blue-800  w-fit p-[0.6rem] justify-self-center rounded-xl text-base font-secondary text-white'>
+              <a href='/pdf' target='blanck'>Mira mi CV</a>
+            </button>
+          </div>
         </div>     
-        <div className=' flex w-full justify-center mr-[5rem]'>
+        <div className=' flex w-full justify-center mr-[5rem] mt-[0.5rem]'>
           <img src={Diploma} alt="Diploma Henry" />
         </div>
       </div>
