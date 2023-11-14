@@ -9,7 +9,7 @@ const Banner: React.FC = () => {
       <div className='flex flex-col justify-center mt-[1.5rem] max-[450px]:flex-row'>
         <a href="https://www.linkedin.com/in/magali-alejandra-martin/" target="_blank"><FontAwesomeIcon icon={faLinkedin} className='text-3xl p-[1rem] text-blue-700' /></a>
         <a href="https://github.com/MaguiMartiin" target="_blank"><FontAwesomeIcon icon={faGithub} className='text-3xl p-[1rem] text-blue-700' /></a>
-        <a href="https://api.whatsapp.com/send?phone=543492226051&text=%C2%A1Hola%21+Estoy+disponible+en+WhatsApp+para+cualquier+consulta.+" target="_blank"><FontAwesomeIcon icon={faWhatsapp} className='text-3xl p-[1rem] text-blue-700' /></a>
+        <a href="https://api.whatsapp.com/send?phone=543492226051&text=%C2%A1Hola%21+Me+gustaría+recibir+más+información.+" target="_blank"><FontAwesomeIcon icon={faWhatsapp} className='text-3xl p-[1rem] text-blue-700' /></a>
       </div>
       <div className="p-[2rem] mt-[1rem]">
         <img src={Magali} alt="Fotografía de Magali Martin" className='rounded-full w-80 h-80 object-cover max-[450px]:w-[16rem] max-[450px]:h-[16rem]'/>

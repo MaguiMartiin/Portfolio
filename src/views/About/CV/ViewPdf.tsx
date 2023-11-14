@@ -1,5 +1,5 @@
 import React from 'react';
-import curriculum from './curriculum.pdf';
+import curriculum from './MagaliMartin_FullStackDeveloper.pdf';
 
 const ViewPdf: React.FC = () => {
   return (

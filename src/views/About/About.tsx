@@ -42,8 +42,8 @@ const About: React.FC  = () => {
           </div>
           <div className='flex justify-center items-center text-center'>
             <button className='bg-slate-500 w-fit p-[0.6rem] justify-center rounded-xl text-base font-secondary text-white'>
-              <a href='/pdf' target='blanck' className='flex items-center text-center'>
-                Mirá mi CV <FaFilePdf className='ml-[0.3rem]'/> 
+              <a href='/pdf' target='blanck' className='flex items-center'>
+                Mirá mi CV <FaFilePdf className='ml-[0.3rem] mb-[0.1rem]'/> 
               </a>
             </button>
           </div>

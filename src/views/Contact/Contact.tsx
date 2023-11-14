@@ -1,5 +1,6 @@
 import React, { useState, ChangeEvent, FormEvent } from 'react';
 import emailjs from 'emailjs-com';
+import { FaWhatsapp } from 'react-icons/fa';
 
 interface FormData {
   user_name: string;
@@ -53,18 +54,24 @@ return (
       </div>
 
       <div className='flex mt-[4rem]'>
-        <div className='flex-col flex w-full'>
-          <div>
-            <h1>Hola</h1>
+        <div className='flex-col flex w-full justify-center items-end mr-[6rem] mb-[4.5rem]'>
+          <div className='flex flex-col w-[15rem] h-[10rem] rounded-lg shadow-lg text-center justify-center  bg-slate-400 text-white mb-[2rem]'>
+            <div className='flex justify-center'>
+            </div>
+            <h1 className='font-primary mb-[1rem] text-blue-900 text-lg '>Email</h1>
+            <h1 className='font-secondary text-sm'>magalimartin02@gmail.com</h1>
           </div>
-
-          <div>
-            <h1>Hola</h1>
+          <div className='flex flex-col w-[15rem] h-[10rem] rounded-lg shadow-lg text-center justify-center  bg-slate-400 text-white'>
+            <div className='flex justify-center '>
+              <FaWhatsapp className='text-3xl' />
+            </div>
+            <h1 className='font-primary mb-[1rem] text-blue-900 text-lg'>Whatsapp</h1>
+            <a href="https://api.whatsapp.com/send?phone=543492226051&text=%C2%A1Hola%21+Me+gustaría+recibir+más+información.+" target="_blank" className='font-secondary text-sm'>+54 3492 226051</a>
           </div>
         </div>
 
-        <div className='flex-col flex w-full'>
-          <form onSubmit={handleSubmit} className='flex flex-col justify-center font-primary text-white max-[450px]:mb-[28rem]'>
+        <div className='flex-col flex w-full justify-center'>
+          <form onSubmit={handleSubmit} className='flex flex-col justify-center font-primary text-white max-[450px]:mb-[28rem] mr-[8rem]'>
             <div className='p-[1rem] flex flex-col bg-slate-400 mb-[1rem] rounded-xl'>
                 <label htmlFor='name' className='mb-[0.5rem] text-blue-900'>Nombre </label>
                 <input type='text' id='user_name' name='user_name' value={formData.user_name} placeholder='Inserta tu nombre' onChange={handleChange} required className='bg-slate-400 placeholder:text-white font-secondary' />
