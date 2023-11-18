@@ -1,6 +1,7 @@
 import React, { useState, ChangeEvent, FormEvent } from 'react';
 import emailjs from 'emailjs-com';
 import { FaWhatsapp } from 'react-icons/fa';
+import { HiOutlineMail } from "react-icons/hi";
 
 interface FormData {
   user_name: string;
@@ -57,6 +58,7 @@ return (
         <div className='flex-col flex w-full justify-center items-end mr-[6rem] mb-[4.5rem]'>
           <div className='flex flex-col w-[15rem] h-[10rem] rounded-lg shadow-lg text-center justify-center  bg-slate-400 text-white mb-[2rem]'>
             <div className='flex justify-center'>
+              <HiOutlineMail className='text-3xl' />
             </div>
             <h1 className='font-primary mb-[1rem] text-blue-900 text-lg '>Email</h1>
             <h1 className='font-secondary text-sm'>magalimartin02@gmail.com</h1>
