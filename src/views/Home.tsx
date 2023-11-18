@@ -9,10 +9,10 @@ import Contact from './Contact/Contact'
 const Home: React.FC  = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
-      window.scrollTo(0, 0)}, 100)
+      window.scrollTo(0, 0)}, 300)
     return () => clearTimeout(timer)
   }, [])
-  
+
   return (
     <div className='bg'>
       <div className='flex justify-center'>
