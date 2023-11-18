@@ -6,8 +6,8 @@ function App() {
   return (
     <div>
       <Routes>
-        <Route path="/pdf" Component={ViewPdf} />
-        <Route path="/" Component={Home}/>
+        <Route path="/pdf" element={<ViewPdf />} />
+        <Route path="/" element={<Home />} />
       </Routes>
     </div>
   )
