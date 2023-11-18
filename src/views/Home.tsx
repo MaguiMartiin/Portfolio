@@ -9,7 +9,7 @@ import Contact from './Contact/Contact'
 const Home: React.FC  = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
-      window.scrollTo(0, 0)}, 1000)
+      window.scrollTo(0, 0)}, 0)
     return () => clearTimeout(timer)
   }, [])
 
