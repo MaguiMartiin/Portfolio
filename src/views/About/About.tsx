@@ -31,7 +31,7 @@ const About: React.FC  = () => {
               </div>
               <h1 className='font-primary mb-[1rem]'>Experiencia</h1>
               <div>
-                <button className='font-secondary text-sm p-[0.5rem] bg-blue-800 text-blue-100 rounded-md animate-bounce' onClick={scrollToProjects}>Ver proyectos</button>
+                <button className='font-secondary text-sm p-[0.5rem] bg-blue-800 text-blue-100 rounded-md animate-pulse' onClick={scrollToProjects}>Ver proyectos</button>
               </div>
             </div>
           </div>
