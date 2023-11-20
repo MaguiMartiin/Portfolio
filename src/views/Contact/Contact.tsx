@@ -55,7 +55,7 @@ return (
       </div>
 
       <div className='flex mt-[4rem] max-[450px]:flex-col'>
-        <div className='flex-col flex w-full justify-center items-end mr-[6rem] mb-[4.5rem]'>
+        <div className='flex-col flex w-full justify-center items-end mr-[6rem] mb-[4.5rem] max-[450px]:items-center'>
           <div className='flex flex-col w-[15rem] h-[10rem] rounded-lg shadow-lg text-center justify-center  bg-slate-400 text-white mb-[2rem]'>
             <div className='flex justify-center'>
               <HiOutlineMail className='text-3xl' />
