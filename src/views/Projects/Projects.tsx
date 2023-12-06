@@ -7,12 +7,12 @@ import { FaExternalLinkAlt } from 'react-icons/fa';
 
 const Projects: React.FC  = () => {
   return (
-    <div id="works" className='flex flex-col justify-center mr-[5rem] ml-[5rem] max-[450px]:mr-[0rem] max-[450px]:ml-[0rem]'>
+    <div id="works" className='flex flex-col justify-center mr-[5rem] ml-[5rem] max-[700px]:mr-[0rem] max-[700px]:ml-[0rem]'>
         <div className='flex justify-center mt-[7rem]'>
           <h1 className='font-primary text-4xl gradient-text'>PROYECTOS</h1>
         </div>
         <div>
-          <div className='flex p-[2rem] mt-[2rem] border-b max-[450px]:flex-col'>
+          <div className='flex p-[2rem] mt-[2rem] border-b max-[700px]:flex-col'>
             <div className='flex-col flex justify-center w-full'>
               <h1 className='text-center font-primary text-2xl text-blue-900'>Henry Dogs</h1>
               <h2 className='text-center font-primary text-blue-700'>Individual</h2>
@@ -39,7 +39,7 @@ const Projects: React.FC  = () => {
             </div>   
           </div>
           
-          <div className='flex p-[2rem] border-b max-[450px]:flex-col'>
+          <div className='flex p-[2rem] border-b max-[700px]:flex-col'>
             <div className='flex-col flex justify-center w-full'>
               <h1 className='text-center font-primary text-2xl text-blue-900'>BookHub</h1>
               <h2 className='text-center font-primary text-blue-700'>Grupal</h2>

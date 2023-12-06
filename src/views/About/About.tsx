@@ -11,12 +11,12 @@ const About: React.FC  = () => {
   }
 
   return (
-    <div id="about" className='flex flex-col justify-center max-[450px]:mb-[28rem]'>
+    <div id="about" className='flex flex-col justify-center max-[700px]:mb-[28rem]'>
       <div className='flex justify-center mt-[7rem]'>
         <h1 className='font-primary text-4xl gradient-text'>SOBRE MI</h1>
       </div>
-      <div className=' flex mt-[2rem] w-screen h-[25rem] p-[2rem] max-[450px]:flex-col'>
-        <div className='flex flex-col w-full ml-[5rem] max-[450px]:ml-[0rem]'>
+      <div className=' flex mt-[2rem] w-screen h-[25rem] p-[2rem] max-[700px]:flex-col'>
+        <div className='flex flex-col w-full ml-[5rem] max-[700px]:ml-[0rem]'>
           <div className='flex gap-[2rem] justify-evenly text-blue-900'>
             <div className='flex flex-col w-[10rem] h-[10rem] rounded-lg border shadow-lg text-center justify-center bg-slate-200'>
               <div className='flex justify-center'>

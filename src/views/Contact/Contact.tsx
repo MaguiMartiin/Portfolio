@@ -54,8 +54,8 @@ return (
         <h1 className='font-primary text-4xl gradient-text'>CONTACTO</h1>
       </div>
 
-      <div className='flex mt-[4rem] max-[450px]:flex-col'>
-        <div className='flex-col flex w-full justify-center items-end mr-[6rem] mb-[4.5rem] max-[450px]:items-center'>
+      <div className='flex mt-[4rem] max-[700px]:flex-col'>
+        <div className='flex-col flex w-full justify-center items-end mr-[6rem] mb-[4.5rem] max-[700px]:items-center'>
           <div className='flex flex-col w-[15rem] h-[10rem] rounded-lg shadow-lg text-center justify-center  bg-slate-400 text-white mb-[2rem]'>
             <div className='flex justify-center'>
               <HiOutlineMail className='text-3xl' />
@@ -73,18 +73,18 @@ return (
         </div>
 
         <div className='flex-col flex w-full justify-center '>
-          <form onSubmit={handleSubmit} className='flex flex-col justify-center font-primary text-white mr-[12rem] max-[450px]:w-full  max-[450px]:items-center '>
-            <div className='p-[1rem] flex flex-col bg-slate-400 mb-[1rem] rounded-xl max-[450px]:w-[15rem]'>
+          <form onSubmit={handleSubmit} className='flex flex-col justify-center font-primary text-white mr-[12rem] max-[700px]:w-full  max-[700px]:items-center '>
+            <div className='p-[1rem] flex flex-col bg-slate-400 mb-[1rem] rounded-xl max-[700px]:w-[15rem]'>
                 <label htmlFor='name' className='mb-[0.5rem] text-blue-900'>Nombre </label>
                 <input type='text' id='user_name' name='user_name' value={formData.user_name} placeholder='Inserta tu nombre' onChange={handleChange} required className='bg-slate-400 placeholder:text-white font-secondary' />
             </div>
 
-            <div className='p-[1rem] flex flex-col bg-slate-400 mb-[1rem] rounded-xl max-[450px]:w-[15rem]'>
+            <div className='p-[1rem] flex flex-col bg-slate-400 mb-[1rem] rounded-xl max-[700px]:w-[15rem]'>
                 <label htmlFor='email' className='mb-[0.5rem] text-blue-900'>Correo Electrónico </label>
                 <input type='email' id='user_email' name='user_email' value={formData.user_email} placeholder='Inserta tu email' onChange={handleChange} required className='bg-slate-400 placeholder:text-white font-secondary'/>
             </div>
 
-            <div className='p-[1rem] flex flex-col bg-slate-400 mb-[1rem] rounded-xl max-[450px]:w-[15rem]'>
+            <div className='p-[1rem] flex flex-col bg-slate-400 mb-[1rem] rounded-xl max-[700px]:w-[15rem]'>
                 <label htmlFor='message' className='mb-[0.5rem] text-blue-900'>Mensaje </label>
                 <textarea id='message' name='message' value={formData.message} placeholder='Dejá tu mensaje' onChange={handleChange} rows={4} cols={50} required className='bg-slate-400 placeholder:text-white font-secondary'></textarea>
             </div>
